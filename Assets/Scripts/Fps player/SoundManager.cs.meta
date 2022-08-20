@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f103bd9a8e32a2b4a8f4f4858f542995
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Walk: {fileID: 8300000, guid: 4333ea4685b9acc499a8f2a84fcc2a57, type: 3}
+  - Shoot: {instanceID: 0}
+  - Realode: {instanceID: 0}
+  - keyCollect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
