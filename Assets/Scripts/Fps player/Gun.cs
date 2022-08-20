@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
@@ -12,23 +12,16 @@ public class Gun : MonoBehaviour
     public float range = 20;
     public bool isanimator=false;
     protected float EnemydamageAmount = 0.1f;
-    //public Animator animator;
-    //InputAction shoot;
+    
     RaycastHit hit;
 
-   // private void Start()
-   // {
-       // shoot = new InputAction("Shoot", binding: "<mouse>/leftButton");
-        //shoot.Enable();
-   // }
+   
 
 
 
     // Update is called once per frame
     void Update()
     {
-        //bool isShooting = shoot.ReadValue <float>()==1f;
-       // animator.SetBool("isShooting", isShooting);
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
            
