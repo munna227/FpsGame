@@ -62,7 +62,7 @@ public class Gui : MonoBehaviour
     void GameOver()
     {
 
-        if (Enemy.enemyCount == (totalEnemy + 1) && damage > 0)
+        if (Enemy.enemyCount == (totalEnemy) && damage > 0)
         {
 
             nextlevel.gameObject.SetActive(true);
@@ -74,7 +74,7 @@ public class Gui : MonoBehaviour
         }
 
 
-        if (Enemy.enemyCount < (totalEnemy + 1) && damage < 0)
+        if (Enemy.enemyCount < (totalEnemy) && damage < 0)
         {
             retrylevel.gameObject.SetActive(true);
             Cursor.visible = true;

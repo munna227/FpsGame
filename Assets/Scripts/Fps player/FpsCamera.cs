@@ -36,20 +36,20 @@ public class FpsCamera : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
-            isCursor = false;
+            isCursor = true;
 
         }
         if (Input.GetKeyDown(KeyCode.U))
         {
-            isCursor = true;
+            isCursor = false;
         }
         if (isCursor)
         {
-            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Locked;
         }
         else
         {
-            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.None;
         }
 
     }

@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Exit();
+        
     }
    public void Play()
     {

@@ -5,8 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-
+    public int nextlevel;
     public GameObject retrylevel;
+    private void Update()
+    {
+       //if ()
+        //{
+
+      //  }
+    }
+    
+   
     public void Level_1() 
     {
         StaticObject.playerdamageAmount = 0f;

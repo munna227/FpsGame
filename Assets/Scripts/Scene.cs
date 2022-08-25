@@ -28,15 +28,7 @@ public class Scene : MonoBehaviour
     public void Retry()
     {
         SceneManager.LoadScene("MainScene");
-       
-
-
-
-    } public void Retry2()
-    {
-        SceneManager.LoadScene("MainScene");
-     
-    }
+    } 
     public void Next()
     {
         SceneManager.LoadScene("Main Menu");
